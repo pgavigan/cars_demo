@@ -5,6 +5,7 @@ This notebook provides demo code for the cars dataset fount at: https://ai.stanf
 The code requires the data be provided as it is not located in this repository.
 
 cars_train folder: Contains all the training images, decompressed
+
 devkit folder: Contains the devkit. Most importantly, this folder contains the train_perfect_preds.txt file which is assumed to be the labels for the data (although I am suspicious of the quality of these labels due to poor model performance).
 
 NOTE: The devkit folder contains a README file which states that the labels are in the cars_train_annos.mat file. The format of this mat file was not found to match the format described in the README.
